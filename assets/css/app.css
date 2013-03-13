@@ -17,9 +17,10 @@ body { }
    height: 50px;
    padding: 0px;
    text-indent: -9999px;
+   margin-left: 0px;
 }
 .top-padding {
-   padding-top: 51px;
+   padding-top: 61px;
 }
 .admin-bar .navbar-fixed-top {
     top: 27px;
@@ -102,7 +103,16 @@ form#login p.status{
     position: fixed;
     z-index: 998;
 }
-
+.author-image, .user-info {
+  float: left;
+}
+.author-image img {
+  margin-top: 13px;
+  margin-right: 8px;
+}
+.logout-button {
+  float: right;
+}
 
 /* ==========================================================================
    Content
