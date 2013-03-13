@@ -112,6 +112,7 @@ form#login p.status{
 }
 .logout-button {
   float: right;
+  margin-top: 20px;
 }
 
 /* ==========================================================================
